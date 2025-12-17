@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revamped Clothing</title>
+  <link rel="stylesheet" href="design.css">
+  <link rel="icon" href="assets/logo.png"> 
+</head>
+
+<body> 
+  <div id="wrapper">
+      <header>
+        <div class="brand">
+          <a href="index.html">
+            <img src="logo.png" alt="Revamped logo">
+          </a>
+        </div>
+        <h1>Revamped Clothing</h1>
+      </header>
+
+    <!-- Nav -->
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="shop.html">Shop</a> |
+      <a href="seasonal.html">Seasonal</a> |
+      <a href="sale.html">Contact</a> |
+	  <a href="about.html">About</a>
+    </nav>
+  <main>
+    <h2>Fill in this field below</h2>
+    <form action="http://example.com/reserve" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="purchase">Purchse Date:</label>
+      <input type="date" id="purchase" name="purchase"><br><br>
+
+      <fieldset>
+        <legend>Would you shop here again</legend>
+        <input type="checkbox" name="activities" value="Yes"> Yes
+        <input type="checkbox" name="activities" value="No"> No
+        <input type="checkbox" name="activities" value="Maybe"> Maybe
+      </fieldset><br>
+
+      <input type="submit" value="Submit Reservation">
+      <input type="reset" value="Clear Form">
+    </form>
+  </main>
+     <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Revamped Clothing. All rights reserved.</p>
+      <p>Follow us on 
+        <a href="#">Instagram</a>, 
+        <a href="#">Facebook</a>, 
+        <a href="#">Twitter</a>
+      </p>
+    </footer>
+</body>
+</html>
